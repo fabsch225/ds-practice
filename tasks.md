@@ -1,8 +1,8 @@
-1. EDA; Untersuche die Korrelation zwischen Persönlichkeitsmerkmalen under Bewertung von Filmen. Ggf. mit MDS / Isomap / PCA einen Psychologischen Score berechnen. Diesen Score kann man dann bewerten, inwiefern er mit den Filmewertungen korreliert (Pearson / Spearman / Mutual Information)
+- (1) EDA; Untersuche die Korrelation zwischen Persönlichkeitsmerkmalen under Bewertung von Filmen. Ggf. mit MDS / Isomap / PCA einen Psychologischen Score berechnen. Diesen Score kann man dann bewerten, inwiefern er mit den Filmewertungen korreliert (Pearson / Spearman / Mutual Information)
 	- Die Beiden CSVs rankings und personality-data
-3. MDS oder Isomap, Dann Clustering (K-Means etc): Human Activity Recognition, dann Validieren
-4. MNIST - 3 mal und dann Train / Test Vergleich der Klassifikation, FP, NP etc
+- (3) MDS oder Isomap, Dann Clustering (K-Means etc): Human Activity Recognition, dann Validieren
+- (4) MNIST - 3 mal und dann Train / Test Vergleich der Klassifikation, FP, NP etc
 	- MDS
 	- PCA
 	- Clustering
-5. Weltkarte: Rekonstruire eine Weltkarte mit Isomap aus Daten von Flügen.
+- (5) Weltkarte: Rekonstruire eine Weltkarte mit Isomap aus Daten von Flügen.
