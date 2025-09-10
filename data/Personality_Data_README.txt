@@ -111,3 +111,53 @@ userId: the hashed user_id.
 movieId: the id of the movie that the user (corresponding to userId) rated.
 rating: the rating (from 0.5 to 5 stars) provided by the user.
 tstamp: when the user rated the movie.
+
+
+
+Movies Data File Structure (movies.csv)
+---------------------------------------
+
+Movie information is contained in the file `movies.csv`. Each line of this file after the header row represents one movie, and has the following format:
+
+    movieId,title,genres
+
+Movie titles are entered manually or imported from <https://www.themoviedb.org/>, and include the year of release in parentheses. Errors and inconsistencies may exist in these titles.
+
+Genres are a pipe-separated list, and are selected from the following:
+
+* Action
+* Adventure
+* Animation
+* Children's
+* Comedy
+* Crime
+* Documentary
+* Drama
+* Fantasy
+* Film-Noir
+* Horror
+* Musical
+* Mystery
+* Romance
+* Sci-Fi
+* Thriller
+* War
+* Western
+* (no genres listed)
+
+
+Links Data File Structure (links.csv)
+---------------------------------------
+
+Identifiers that can be used to link to other sources of movie data are contained in the file `links.csv`. Each line of this file after the header row represents one movie, and has the following format:
+
+    movieId,imdbId,tmdbId
+
+movieId is an identifier for movies used by <https://movielens.org>. E.g., the movie Toy Story has the link <https://movielens.org/movies/1>.
+
+imdbId is an identifier for movies used by <http://www.imdb.com>. E.g., the movie Toy Story has the link <http://www.imdb.com/title/tt0114709/>.
+
+tmdbId is an identifier for movies used by <https://www.themoviedb.org>. E.g., the movie Toy Story has the link <https://www.themoviedb.org/movie/862>.
+
+Use of the resources listed above is subject to the terms of each provider.
+
