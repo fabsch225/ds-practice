@@ -5,4 +5,4 @@
 	- MDS
 	- PCA
 	- Clustering
-- (5) Weltkarte: Rekonstruire eine Weltkarte mit Isomap aus Daten von Flügen.
+- (5) Weltkarte: Rekonstruire eine Weltkarte mit Isomap aus Daten von Flughäfeb oder Städten.
