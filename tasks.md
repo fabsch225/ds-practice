@@ -6,4 +6,5 @@
 	- PCA
 	- Clustering
 - (5) Weltkarte: Rekonstruire eine Weltkarte mit Isomap aus Daten von Flughäfeb oder Städten.
-- (6) Titanik: wer Überlebt?  - verschiedene Klassifikatoren testen und dann beurteilen (FP, ROC-Kurve etc)
+- (6) Titanik: wer Überlebt? (Feature Engineering) - verschiedene Klassifikatoren testen und dann beurteilen (FP, ROC-Kurve etc)
+- (7) Weine: K-Means, Validierung, Metriken zur Bewertung (purity, mi)
